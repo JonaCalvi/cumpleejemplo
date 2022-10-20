@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: "Sacramento", cursive;
+  font-family: 'Dancing Script', cursive;
   color: black;
 }
 
@@ -195,7 +195,7 @@ section {
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #d2ece9;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -205,7 +205,7 @@ section {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: orangered;
 }
 .navbar .dropdown ul {
   display: block;
@@ -1168,4 +1168,20 @@ li span {
 
 .fuente1 {
   font-family: 'Dancing Script', cursive;
+}
+
+
+
+.boton {
+  background-color:#44c767;
+  border-radius:24px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Dancing Script', cursive;
+  font-size:27px;
+  padding:16px 39px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
 }
